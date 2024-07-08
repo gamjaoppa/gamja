@@ -7,4 +7,6 @@ for dan in range(2,10) :
     print(f'{dan}단',)
     for d in range(1,10) :
         print(f'{dan} * {d} = {dan*d}')
+
+        
         
