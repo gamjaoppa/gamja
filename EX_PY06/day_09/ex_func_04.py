@@ -35,14 +35,11 @@ def print_menu() :
 
 ## ------------------------------------------------------------------
 # 함수기능 : 연산 수행 후 결과를 반환하는 함수
-# 함수이름 :calc
+# 함수이름 : calc
 # 매개변수 : 함수명, str 숫자 2개, str 연산자 1개
 # 함수결과 : 없음
 # ------------------------------------------------------------------
 def calc(func,op) :
-    # num1,num2 = input('정수 2개(예: 1 2)').split()
-    # num1=int(num1)
-    # num2=(int(num2))
     data=input('정수 2개 예:10 2): ')
     if check_data(data,2) :
         data.split()
@@ -68,6 +65,8 @@ def check_data(data1,count) :
            return False 
     else :
         return False
+    
+    
     
 
 
